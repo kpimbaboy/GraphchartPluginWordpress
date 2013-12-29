@@ -39,11 +39,11 @@ le shortcode de base est `[charts]` qui tout seul ne fait rien, vous devrez ajou
 
 ``
 	Camenbert
-	[charts title="camenbert" type="pie" align="alignright" margin="5px 20px" data="10,32,50,25,5"]
+	[charts title="camenbert" type="pie" align="alignright" margin="5px 20px" data="10,22,50,35,5"]
 
 	Donut
 
-	[charts title="donut" type="doughnut" align="alignleft" margin="5px 20px" data="30,10,55,25,15,8" colors="69D2E7,#E0E4CC,#F38630,#96CE7F,#CEBC17,#CE4264"]
+	[charts title="donut" type="doughnut" align="alignleft" margin="5px 20px" data="50,10,35,25,15,8" colors="#0fc611,#E0B4CC,#F38230,#94F5B,#E1BC17,#CE4264"]
 
 
 	Barres
@@ -52,24 +52,24 @@ le shortcode de base est `[charts]` qui tout seul ne fait rien, vous devrez ajou
 
 	Lignes
 
-	[charts title="Lignes" type="line" align="alignright" margin="5px 20px" datasets="40,43,61,50 next 33,15,40,22" labels="one,two,three,four"]
+	[charts title="Lignes" type="line" align="alignright" margin="5px 20px" datasets="40,43,61,50 next 33,15,40,22" labels="awa,fanta,jack,tom"]
 
 	Radar
 
-	[charts title="radar" type="radar" align="alignleft" margin="5px 20px" datasets="20,22,40,25,55 next 15,20,30,40,35" labels="one,two,three,four,five" colors="#CEBC17,#CE4264"]
+	[charts title="radar" type="radar" align="alignleft" margin="5px 20px" datasets="20,22,40,25,55 next 15,20,30,40,35" labels="pierre,yves,alain,brice,paul" colors="#CEEC17,#FCB615"]
 ``
 
 ## Liste des Options 
 
 ``
 	'type'             = "pie"
-	choose from pie, doughnut, radar, polararea, bar, line
+	choisissez le type de graphique : pie, doughnut, radar, polararea, bar, line
 
 	'title'            = "chartname"
-	each chart requires a uniqe title. (note that the title should be unique on the page if you are using multiple charts on the same page)
+	titre du graphique (chaque titre doit être unique)
 
-	'width'			   = "45%"
-	facultatif - This sets the width of the container for the chart, and should be the only size property you need to adjust.  Setting it as a % value will make the chart fluid / responsive, you can use any valid CSS measurement of value (em, px, %).
+	'width'			   = "100%"
+	facultatif - definit la taille du canevas du graphique les valeurs sont en % pour avoir une taille fluide.
 
 	'height'		   = "auto"
 	facultatif - la hauteur peut s'adapter automatiquement en fonction de la largeur (responsive design powaaa).
