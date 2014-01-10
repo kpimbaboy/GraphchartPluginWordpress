@@ -85,34 +85,28 @@ le shortcode de base est `[charts]` qui tout seul ne fait rien, vous devrez ajou
 	'animation'		   => 'true'
 	facultatif -  pour activer ou desactiver les animations utilisez true ou false (c'est facile hein !! ^_^)
 
-	'scaleFontSize'    => '12'
-	facultatif -  adjuster la taille de la police pour les echelles de valeur
-
-	'scaleFontColor'   => '#666'
-	facultatif -  change la couleur des echelles de valeurs
-
 ## Exemples d'utilisation du Shortcode 
 
 ``
 	Camenbert
-	[charts title="camenbert" type="pie" align="alignright" margin="5px 20px" data="10,22,50,35,5"]
+	[charts title="camenbert" type="pie" data="10,22,50,35,5"]
 
 	Donut
 
-	[charts title="donut" type="doughnut" align="alignleft" margin="5px 20px" data="50,10,35,25,15,8" colors="#0fc611,#E0B4CC,#F38230,#94F5B,#E1BC17,#CE4264"]
+	[charts title="donut" type="doughnut" data="50,10,35,25,15,8" colors="#0fc611,#E0B4CC,#F38230,#94F5B,#E1BC17,#CE4264"]
 
 
 	Barres
 
-	[charts title="barres" type="bar" align="alignleft" margin="5px 20px" datasets="40,32,50,35 next 20,25,45,42 next 40,43, 61,50 next 33,15,40,22" labels="one,two,three,four"]
+	[charts title="barres" type="bar" datasets="40,32,50,35 next 20,25,45,42 next 40,43, 61,50 next 33,15,40,22" labels="one,two,three,four"]
 
 	Lignes
 
-	[charts title="Lignes" type="line" align="alignright" margin="5px 20px" datasets="40,43,61,50 next 33,15,40,22" labels="awa,fanta,jack,tom"]
+	[charts title="Lignes" type="line" datasets="40,43,61,50 next 33,15,40,22" labels="awa,fanta,jack,tom"]
 
 	Radar
 
-	[charts title="radar" type="radar" align="alignleft" margin="5px 20px" datasets="20,22,40,25,55 next 15,20,30,40,35" labels="pierre,yves,alain,brice,paul" colors="#CEEC17,#FCB615"]
+	[charts title="radar" type="radar" datasets="20,22,40,25,55 next 15,20,30,40,35" labels="pierre,yves,alain,brice,paul" colors="#CEEC17,#FCB615"]
 ``
 
 
